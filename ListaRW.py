@@ -15,6 +15,14 @@ oceny.sort()
 oceny.reverse()
 oceny[-1] = 4
 print(oceny)
+dziennik = tuple(oceny)
+print(dziennik)
+
+oceny2 = oceny.copy()
+oceny2[-1]=33
+print("oceny2", oceny2)
+
+
 
 
 
