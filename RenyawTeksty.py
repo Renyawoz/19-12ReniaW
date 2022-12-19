@@ -15,6 +15,9 @@ print(imie.title())
 print(imie.count("e"))
 print(imie.join("---"))
 print(imie.rstrip())
+print(imie[0:3])
+print(imie[:3])
+print(imie[-1:-3])
 
 
 
