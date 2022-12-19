@@ -18,6 +18,12 @@ print(imie.rstrip())
 print(imie[0:3])
 print(imie[:3])
 print(imie[-1:-3])
+s ="Hello World"
+print(len(s))
+print (s.removeprefix("He"))
+print (s.removeprefix("lo"))
+
+
 
 
 
