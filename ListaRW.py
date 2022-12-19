@@ -1,0 +1,21 @@
+indeks = int(input('Podaj miejsce wstawienia:'))
+cyfra = input('Podaj ocenę z klasówki:')
+
+oceny = [5,4,3,4,3,2,6,1,3,6,2,]
+#print(len(oceny))
+#print(oceny[:5])
+print("Ilość trójek w ocnach", oceny.count(3))
+print(oceny)
+#oceny.insert(5, cyfra)
+
+oceny.append(6)
+oceny.remove(5)
+oceny.pop(4)
+oceny.sort()
+oceny.reverse()
+oceny[-1] = 4
+print(oceny)
+
+
+
+
