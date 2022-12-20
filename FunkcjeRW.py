@@ -13,5 +13,10 @@ def drukarka2(tekst, ile_razy):
   return  (tekst + " ") * ile_razy
 
 
-lista = [drukarka("RENIA", 10), drukarka2("RENIA", 5), drukarka("RENIA", 2), drukarka("RENIA", 10), 'YETI']
+
+def drukarka3(tekst = 'Hello', ile_razy=2):
+  return  (tekst + " ") * ile_razy
+
+
+lista = [drukarka("RENIA", 10), drukarka2("RENIA", 5), drukarka("RENIA", 2), drukarka3(), 'YETI']
 print(lista)
