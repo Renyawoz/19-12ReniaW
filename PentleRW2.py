@@ -24,5 +24,11 @@ lata = [25,26,28]
 #     wiek = lata[poz]
 #     print(imie, wiek)
 
-for person, age in zip(imiona,lata):
-    print(person, age)
+# for person, age in zip(imiona,lata):
+#     print(person, age)
+
+
+for i in range (1,6):
+    for j in range(1, i+1):
+        print("*",end = "")
+    print()
