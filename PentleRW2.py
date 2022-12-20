@@ -18,3 +18,6 @@ print(liczby)
 imiona = ['Stefan','Yeti', 'Babel']
 for p in range(len(imiona)):
     print(p, imiona[p])
+
+for poz,imie in enumerate(imiona,1):
+    print(poz,imie)
