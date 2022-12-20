@@ -15,9 +15,14 @@ for i in range(100,200,50):
 liczby = list(range(1,11,2))
 print(liczby)
 
-imiona = ['Stefan','Yeti', 'Babel']
-for p in range(len(imiona)):
-    print(p, imiona[p])
+imiona = ['Stefan','Yeti', 'Babel', 'Genio']
+lata = [25,26,28]
+# for p in range(len(imiona)):
+#     print(p, imiona[p])
 
-for poz,imie in enumerate(imiona,1):
-    print(poz,imie)
+# for poz,imie in enumerate(imiona):
+#     wiek = lata[poz]
+#     print(imie, wiek)
+
+for person, age in zip(imiona,lata):
+    print(person, age)
