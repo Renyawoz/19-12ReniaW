@@ -23,7 +23,17 @@ import csv
 #         licznik += 1
 #     print(f'Znalazłem{licznik}linii')
 
-with open(r'C:\Users\CSComarch\Documents\19-12ReniaW\1912_poniedziałekRW\dane\osoby.csv','a', newline="\n") as file:
-    writer = csv.writer(file, delimiter=",", quoting = csv.QUOTE_MINIMAL)
-    writer.writerow(['Renia', 'IT', 'Czerwiec'])
+# with open(r'C:\Users\CSComarch\Documents\19-12ReniaW\1912_poniedziałekRW\dane\osoby.csv','a', newline="\n") as file:
+#     writer = csv.writer(file, delimiter=",", quoting = csv.QUOTE_MINIMAL)
+#     writer.writerow(['Renia', 'IT', 'Czerwiec'])
 
+# with open(r'C:\Users\CSComarch\Documents\19-12ReniaW\1912_poniedziałekRW\dane\osoba.csv','a', newline="\n") as file:
+#     writer = csv.writer(file, delimiter=",", quoting = csv.QUOTE_MINIMAL)
+#     writer.writerow(['imie', 'miejsce', 'miesiac'])
+#     writer.writerow(['Renia', 'IT', 'Czerwiec'])
+
+with open(r'C:\Users\CSComarch\Documents\19-12ReniaW\1912_poniedziałekRW\dane\osoba1.csv', newline="\n") as file:
+    names = ['imie', 'miejsce', 'miesiac']
+    writer = csv.DictWriter(file,fieldnames=names)
+    writer.writeheader()
+    writer.writerow({'imie':'Renia', 'miejsce':'IT', 'miesiac':'Czerwiec'})
