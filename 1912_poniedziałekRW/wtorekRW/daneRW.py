@@ -2,9 +2,9 @@
 # #plik =open('klienci.txt','w')
 # plik = open('klienci.txt' , 'a')
 
-with open('klienci.txt','a') as plik:
+with open('klienci.txt', 'a') as plik:
     plik.write("Renia")
-with open('klienci.txt','r') as plik:
+with open('klienci.txt', 'r') as plik:
     nowa_lista=[]
     imie = plik.readline().rstrip('\n')
     while imie!="":

@@ -32,7 +32,7 @@ import csv
 #     writer.writerow(['imie', 'miejsce', 'miesiac'])
 #     writer.writerow(['Renia', 'IT', 'Czerwiec'])
 
-with open(r'C:\Users\CSComarch\Documents\19-12ReniaW\1912_poniedziałekRW\dane\osoba1.csv', newline="\n") as file:
+with open(r'/1912_poniedziałekRW/dane/osoba1.csv', newline="\n") as file:
     names = ['imie', 'miejsce', 'miesiac']
     writer = csv.DictWriter(file,fieldnames=names)
     writer.writeheader()
