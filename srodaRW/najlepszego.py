@@ -164,7 +164,7 @@ else:
     text_1.setposition(width / 7.5, -width / 2.14)
 text_1.color("forest green")
 # text_1.write("code", font=("Arial", 30, "normal"), align="center")
-text_1.write("Trenera:)", font=("Avenir", max(int(30 / i_scale), 15), "normal"),
+text_1.write("Renia:)", font=("Avenir", max(int(30 / i_scale), 15), "normal"),
              align="center")
 # text_1.setposition(150, -280)
 if web_based:
