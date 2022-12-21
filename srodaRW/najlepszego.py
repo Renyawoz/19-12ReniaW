@@ -145,7 +145,7 @@ text_1.penup()
 text_1.setposition(0, width / 2.7)
 text_1.color("red")
 # text_1.write("Merry Christmas", font=("Georgia", 30, "bold"), align="center")
-text_1.write("Wesołych Świąt !!!",
+text_1.write("Wesołych Świąt i Szczęśliwego Nowego Roku 2023!!!",
              font=("Apple Chancery", max(int(30 / i_scale), 15), "bold"),
              align="center")
 
