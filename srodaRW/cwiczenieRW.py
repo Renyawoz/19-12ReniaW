@@ -1,6 +1,6 @@
 import xml.etree.ElementTree as ET
 
-tree = ET.parse(r'C:\Users\CSComarch\Documents\19-12ReniaW\1912_poniedziałekRW\dane\movies.xml')
+tree = ET.parse(r'/1912_poniedziałekRW/dane/movies.xml')
 root = tree.getroot()
 # print(root.tag)
 # print(root.attrib)
@@ -29,7 +29,7 @@ b2tf.attrib['title'] = 'Powrót do przyszłości 2'
 print(b2tf.attrib)
 
 tree.write('filmy.xml')
-tree = ET.parse('filmy.xml')
+tree = ET.parse('../1912_poniedziałekRW/filmy.xml')
 
 root = tree.getroot()
 for movie in root.iter('movie'):
