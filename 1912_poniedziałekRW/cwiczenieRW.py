@@ -1,6 +1,6 @@
 import xml.etree.ElementTree as ET
 
-tree = ET.parse(r'D:\_proj\19_21_szkolenie\dane\movies.xml')
+tree = ET.parse(r'C:\Users\CSComarch\Documents\19-12ReniaW\1912_poniedziałekRW\dane\movies.xml')
 root = tree.getroot()
 # print(root.tag)
 # print(root.attrib)
