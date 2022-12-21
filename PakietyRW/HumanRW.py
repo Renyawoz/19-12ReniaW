@@ -1,4 +1,3 @@
-
 from PakietyRW.klasyRW import Human
 
 

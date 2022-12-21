@@ -1,56 +1,49 @@
-# class Human:
-#
+ class Human:
 #     imie = ""
 #     wiek = 0
 #     plec = ""
 #
 #     def witaj(self):
-#         print(f"Czesc, mama na imię {self.imie}")
+#         print(f"Cześć, mam na imię {self.imie}")
 #
 #     def spacer(self):
 #         if self.plec == 'k':
-#             print('Poszlam na spacer')
+#             print('Poszłam na spacer')
 #         else:
-#             print('Pooszedlem na spacer')
+#             print('Poszedłem na spacer')
 #
-#     def policz(self):
-#         if self.wiek <7:
-#             print('Nie potrafie jeszcze liczyc')
+#     def policz(self, a, b):
+#         if self.wiek < 7:
+#             print('Nie potrafie jeszcze liczyć')
 #         else:
-#             print("2+2=4")
-#     def policz(self):
-#         if self.wiek <7:
-#             print('Nie potrafie jeszcze liczyc')
-#         else:
-#             print("Wynik dodawania =",a+b)
-
-
+#             print("Wynik dodawania =", a + b)
+#
 
 class Human:
+    '''
+    Klasa Human symuluje powstawanie czlowieka
+    '''
 
-
-
-    def __init__(self, imie,wiek,plec):
+    def __init__(self, imie="Alicja", wiek=0, plec='k'):
         self.imie = imie
         self.wiek = wiek
         self.plec = plec
 
-
     def witaj(self):
-        print(f"Czesc, mama na imię {self.imie}")
+        '''
+        Metoda witaj symuluje powitanie
+        :return: komunikat z imieniem
+        '''
+        print(f"Cześć, mam na imię {self.imie}")
+
     def spacer(self):
         if self.plec == 'k':
-            print('Poszlam na spacer')
+            print('Poszłam na spacer')
         else:
-            print('Pooszedlem na spacer')
+            print('Poszedłem na spacer')
 
-    # def policz(self):
-    #     if self.wiek <7:
-    #         print('Nie potrafie jeszcze liczyc')
-    #     else:
-    #         print("2+2=4")
-    def policz(self):
-        if self.wiek <7:
-            print('Nie potrafie jeszcze liczyc')
+    def policz(self, a, b):
+        if self.wiek < 7:
+            print('Nie potrafie jeszcze liczyć')
         else:
-            print("Wynik dodawania=", a +b )
+            print("Wynik dodawania =", a + b)
