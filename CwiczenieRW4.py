@@ -23,7 +23,7 @@ import csv
 #         licznik += 1
 #     print(f'Znalazłem{licznik}linii')
 
-with open(r'C:\Users\CSComarch\Documents\19-12ReniaW\1912_poniedziałekRW\dane\osoby.csv','a') as file:
+with open(r'C:\Users\CSComarch\Documents\19-12ReniaW\1912_poniedziałekRW\dane\osoby.csv','a', newline="\n") as file:
     writer = csv.writer(file, delimiter=",", quoting = csv.QUOTE_MINIMAL)
     writer.writerow(['Renia', 'IT', 'Czerwiec'])
 
